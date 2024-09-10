@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="317dp"
+        android:layout_height="581dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#212121"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ResultTextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#828282"
+            android:gravity="center_horizontal"
+            android:paddingLeft="10dp"
+            android:paddingTop="20dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="20dp"
+            android:text="@string/app_name"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="240dp">
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/scrollMethodTextView"
+                    android:layout_width="155dp"
+                    android:layout_height="34dp"
+                    android:gravity="right"
+                    android:paddingRight="5dp"
+                    android:text="Scrolling Method"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FFFFFF" />
+
+                <Spinner
+                    android:id="@+id/scrollMethodSpinner"
+                    android:layout_width="183dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:background="@android:drawable/btn_dropdown"
+                    android:gravity="left"
+                    android:popupBackground="@android:drawable/spinner_dropdown_background"
+                    android:spinnerMode="dialog"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/grouptext"
+                    android:layout_width="155dp"
+                    android:layout_height="34dp"
+                    android:gravity="right"
+                    android:paddingRight="5dp"
+                    android:text="Group Number"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FFFFFF" />
+
+                <Spinner
+                    android:id="@+id/groupspin"
+                    android:layout_width="183dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:background="@android:drawable/btn_dropdown"
+                    android:gravity="left"
+                    android:popupBackground="@android:drawable/spinner_dropdown_background"
+                    android:spinnerMode="dialog"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="60dp" />
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:onClick="clickOK"
+                android:textColor="#000000"
+                android:text="OK" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

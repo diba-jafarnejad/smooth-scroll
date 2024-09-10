@@ -1,0 +1,37 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/asmatareen/Downloads/4443/EECS4443ProjectListScroll/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/asmatareen/Downloads/4443/EECS4443ProjectListScroll/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "3,5,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "56,167,114",
+                        "endColumns": "57,35,52",
+                        "endOffsets": "109,198,162"
+                    },
+                    "to": {
+                        "startLines": "9026,9027,9028",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "208409,208467,208503",
+                        "endColumns": "57,35,52",
+                        "endOffsets": "208462,208498,208551"
+                    }
+                },
+                {
+                    "source": "/Users/asmatareen/Downloads/4443/EECS4443ProjectListScroll/app/src/main/res/values/words.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "9025",
+                        "endColumns": "19",
+                        "endOffsets": "208404"
+                    }
+                }
+            ]
+        }
+    ]
+}
